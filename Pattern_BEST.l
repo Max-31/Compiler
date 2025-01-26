@@ -10,7 +10,7 @@ int n, step=0;
 if(step==0){
 n= atoi(yytext);
 step++;
-printf("Size of Arrays: %d\n", n);
+/*printf("Size of Arrays: %d\n", n);*/
 }
 
 if(step==1){
